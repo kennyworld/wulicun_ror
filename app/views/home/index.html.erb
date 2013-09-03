@@ -1,0 +1,8 @@
+<%= raw SiteConfig.index_html %>
+<div class="home_suggest_topics">
+  <%= render_cell :topics, :high_likes_topics %>
+  <%= render_cell :topics, :high_replies_topics %>
+</div>
+<%= render_cell :topics, :index_sections %>
+<!--去除热门城市的显示-->
+<!--%= render_cell :topics, :index_locations %>-->
